@@ -7,6 +7,7 @@
 **Tracks:** FrontEnd and Design
 
 **Courses Registered:**
+
 *HTML
 *CSS
 *JavaScript

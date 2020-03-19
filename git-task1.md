@@ -4,7 +4,9 @@
 
 **Slack username:** isaacsokari
 
-**Tracks:** FrontEnd and Design
+**Tracks:** 
+* FrontEnd
+* Design
 
 **Courses Registered:**
 * HTML

@@ -12,8 +12,8 @@ html {
 body {
   margin: 0;
   /* background: rgba(0, 0, 0, 0.6); */
-  background-image: url("https://res.cloudinary.com/ts-i/image/upload/c_scale,o_90,w_720/v1587036308/startng%20files/alex-iby-city-street_ee8nex.jpg");
-  background-size: 100%;
+  background-image: url("https://res.cloudinary.com/ts-i/image/upload/v1587065684/startng%20files/apple-keyboard-mouse.jpg.jpg");
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   display: flex;
@@ -102,11 +102,11 @@ form textarea {
   padding: 5px;
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   body {
     background-image: url("https://res.cloudinary.com/ts-i/image/upload/v1587063179/startng%20files/alex-iby-city-street-mobile_jytsmn.jpg");
   }
-}
+} */
 
 @media (max-width: 450px) {
   form {

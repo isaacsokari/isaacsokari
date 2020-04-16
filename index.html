@@ -40,7 +40,11 @@
         I would love to build stuff with you, shoot me a mail below if you're
         interested.
       </p>
-      <form class="contact-form" action="action.php" method="POST">
+      <form
+        class="contact-form"
+        action="https://formspree.io/mvobyjje"
+        method="POST"
+      >
         <h4>Message Me!</h4>
         <label for="name">Name:</label>
         <input
@@ -48,6 +52,7 @@
           name="name"
           id="name"
           placeholder="Write your full name here"
+          required
         />
         <label for="email">Email Address:</label>
         <input
@@ -55,7 +60,17 @@
           name="email"
           id="email"
           placeholder="e.g. name@example.com"
+          required
         />
+
+        <label for="phone">Phone Number:</label>
+        <input
+          type="tel"
+          name="Phone Number"
+          id="phone"
+          placeholder="e.g. +2348012345678"
+        />
+
         <label for="message">Message:</label>
         <textarea
           name="message"
@@ -63,6 +78,7 @@
           cols="30"
           rows="10"
           placeholder="Write your message here."
+          required
         ></textarea>
         <button type="submit">Send Message</button>
       </form>

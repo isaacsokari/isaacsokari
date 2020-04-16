@@ -67,7 +67,7 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: inherit;
+  width: 90%;
 }
 
 form input {

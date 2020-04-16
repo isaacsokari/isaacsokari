@@ -102,6 +102,12 @@ form textarea {
   padding: 5px;
 }
 
+@media (max-width: 1200px) {
+  body {
+    background-image: url("https://res.cloudinary.com/ts-i/image/upload/v1587063179/startng%20files/alex-iby-city-street-mobile_jytsmn.jpg");
+  }
+}
+
 @media (max-width: 450px) {
   form {
     width: 95%;

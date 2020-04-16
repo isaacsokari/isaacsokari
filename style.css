@@ -11,9 +11,9 @@ html {
 
 body {
   margin: 0;
-  background: rgba(0, 0, 0, 0.6);
-  background-image: url("https://res.cloudinary.com/ts-i/image/upload/c_scale,w_720/v1587036308/startng%20files/alex-iby-city-street_ee8nex.jpg");
-  background-size: cover;
+  /* background: rgba(0, 0, 0, 0.6); */
+  background-image: url("https://res.cloudinary.com/ts-i/image/upload/c_scale,o_90,w_720/v1587036308/startng%20files/alex-iby-city-street_ee8nex.jpg");
+  background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   display: flex;
@@ -21,7 +21,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Lato", sans-serif;
-  color: rgba(0, 0, 0, 0.842);
+  /* color: rgba(0, 0, 0, 0.842); */
 }
 
 header {
@@ -30,8 +30,8 @@ header {
   align-items: center;
   justify-content: center;
   padding: 3rem 0 1rem;
-  color:rgba(0, 0, 0, 1.3);
-  text-shadow: 0 0.5px rgba(240, 248, 255, 0.6);
+  /* color:rgb(53, 13, 13); */
+  /* text-shadow: 0 0.5px rgba(240, 248, 255, 0.6); */
 }
 
 header p {
@@ -57,7 +57,7 @@ header h1 {
   width: 80%;
   max-width: 35rem;
   text-align: center;
-  background-color: rgba(240, 248, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.493);
   padding: 1rem 2rem;
   border-radius: 10px;
   margin-bottom: 2rem;
@@ -84,6 +84,7 @@ form textarea {
   box-shadow: none;
   outline: none;
   font-family: "Lato", sans-serif;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .container form label {

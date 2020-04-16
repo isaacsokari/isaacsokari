@@ -1,16 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Isaac Sokari</title>
-</head>
-<body>
-  <h1>Hey there!</h1>
-  <p>I'm Isaac Sokari, welcome to my page.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
 
+    <title>Isaac Sokari</title>
+  </head>
+  <body>
+    <header>
+      <img src="" alt="My Photo" />
+      <h1>Hey there!</h1>
+      <p>Welcome to my personal profile.</p>
+    </header>
+    <div class="container">
+      <p class="biodata">
+        I'm <strong> Isaac Sokari</strong>, a Front-End Web Developer and UI/UX
+        Designer (in training) from Rivers state, Nigeria.
+      </p>
+      <p class="biodata">
+        Born on the 10th of April, 1997 in Port Harcourt, I grew up to study
+        Civil Engineering<!--  at the University of Port Harcourt -->. "Ah,
+        you're a graduate civil engineer? Why the switch?", you might ask.
+        <br />
+        My reply? the heart wants what it wants. <br />
+      </p>
+      <section id="hobbiesAndInterests">
+        <p class="biodata">
+          My hobbies include messing with code, listening to music/podcasts, and
+          watching movies, game streams on twitch/mixer and documentaries.
+        </p>
+        <p class="biodata"></p>
+      </section>
+      <p class="biodata" id="conclusion">
+        I would love to build stuff with you, shoot me a mail below if you're
+        interested.
+      </p>
+      <section class="biodata">
+        <p>
+          <!-- First Name: Isaac <br>
+        Last Name: Sokari <br>
+        State of Origin: Rivers State. <br>
+        Marital Status: Single <br>
+        Date of Birth: 10th April, 1997. <br>
+          Address: Port Harcourt.<br />
+          Occupation: Software Engineer (in training).<br />
+          Hometown: Port Harcourt. <br /> -->
+          Slack ID: isaacsokari <br />
+        </p>
+      </section>
 
-</body>
+      <form class="contact-form">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Write your full name here"
+        />
+        <label for="email">Email Address:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="e.g. name@example.com"
+        />
+        <label for="message">Message:</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Write your message here."
+        ></textarea>
+        <button type="submit">Email Me!</button>
+      </form>
+    </div>
+  </body>
+
+  <a
+    id="bg-link"
+    style="
+      background-color: black;
+      color: rgb(220,220,220);
+      text-decoration: none;
+      padding: 4px 6px;
+      transform: scale(0.5);
+    "
+    href="https://unsplash.com/@alexiby?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="Download free do whatever you want high-resolution photos from Alex Iby"
+    ><span style="display: inline-block; padding: 2px 3px;"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        style="
+          height: 12px;
+          width: auto;
+          position: relative;
+          vertical-align: middle;
+          top: -2px;
+          fill: white;
+        "
+        viewBox="0 0 32 32"
+      >
+        <title>unsplash-logo</title>
+        <path
+          d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"
+        ></path></svg></span
+    ><span style="display: inline-block; padding: 2px 3px;"
+      >Background Image by Alex Iby</span
+    ></a
+  >
 </html>

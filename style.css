@@ -9,8 +9,8 @@ html {
   margin: 0;
 }
 body {
-  background: rgb(85, 73, 73);
-  background-image: url(alex-iby-city-street.jpg);
+  /* background: rgba(82, 82, 82, 0.2); */
+  background-image: url(img/alex-iby-city-street.jpg);
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@ header h1 {
   width: 80%;
   max-width: 40rem;
   text-align: center;
-  background-color: rgba(240, 248, 255, 0.5);
+  background-color: rgba(240, 248, 255, 0.7);
   padding: 1rem;
   border-radius: 10px;
   margin-bottom: 2rem;

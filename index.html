@@ -8,15 +8,15 @@
     <title>Isaac Sokari</title>
   </head>
   <body>
-    <header>
-      <img
-        src="https://res.cloudinary.com/ts-i/image/upload/v1587037783/startng%20files/My_Picture_lccxqz.jpg"
-        alt="My Photo"
-      />
-      <h1>Hey there!</h1>
-      <p>Welcome to my profile.</p>
-    </header>
     <div class="container">
+      <header>
+        <img
+          src="https://res.cloudinary.com/ts-i/image/upload/v1587037783/startng%20files/My_Picture_lccxqz.jpg"
+          alt="My Photo"
+        />
+        <h1>Hey there!</h1>
+        <p>Welcome to my profile.</p>
+      </header>
       <h3>About Me.</h3>
       <p class="biodata">
         I'm <strong> Isaac Sokari</strong> (<i>@isaacsokari</i> on slack) a
@@ -55,7 +55,7 @@
           type="text"
           name="name"
           id="name"
-          placeholder="Write your full name here"
+          placeholder="Full Name (required)"
           required
         />
         <label for="email">Email Address:</label>
@@ -63,7 +63,7 @@
           type="email"
           name="email"
           id="email"
-          placeholder="e.g. name@example.com"
+          placeholder="e.g. name@example.com (required)"
           required
         />
 
@@ -81,44 +81,46 @@
           id="message"
           cols="30"
           rows="10"
-          placeholder="Write your message here."
+          placeholder="Write your message here. (required)"
           required
         ></textarea>
         <button type="submit">Send Message</button>
       </form>
+      <a
+        id="bg-link"
+        style="
+          background-color: black;
+          color: rgb(220, 220, 220);
+          text-decoration: none;
+          padding: 4px 6px;
+          transform: scale(0.5);
+          position: absolute;
+          bottom: 0;
+        "
+        href="https://unsplash.com/@thisisramiro"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><span style="display: inline-block; padding: 2px 3px;"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            style="
+              height: 12px;
+              width: auto;
+              position: relative;
+              vertical-align: middle;
+              top: -2px;
+              fill: white;
+            "
+            viewBox="0 0 32 32"
+          >
+            <title>unsplash-logo</title>
+            <path
+              d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"
+            ></path></svg></span
+        ><span style="display: inline-block; padding: 2px 3px;"
+          >Background Image by Ramiro Mendes
+        </span></a
+      >
     </div>
-    <a
-      id="bg-link"
-      style="
-        background-color: black;
-        color: rgb(220, 220, 220);
-        text-decoration: none;
-        padding: 4px 6px;
-        transform: scale(0.5);
-      "
-      href="https://unsplash.com/@thisisramiro"
-      target="_blank"
-      rel="noopener noreferrer"
-      ><span style="display: inline-block; padding: 2px 3px;"
-        ><svg
-          xmlns="http://www.w3.org/2000/svg"
-          style="
-            height: 12px;
-            width: auto;
-            position: relative;
-            vertical-align: middle;
-            top: -2px;
-            fill: white;
-          "
-          viewBox="0 0 32 32"
-        >
-          <title>unsplash-logo</title>
-          <path
-            d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"
-          ></path></svg></span
-      ><span style="display: inline-block; padding: 2px 3px;"
-        >Background Image by Ramiro Mendes
-      </span></a
-    >
   </body>
 </html>

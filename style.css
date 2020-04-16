@@ -57,7 +57,7 @@ header h1 {
   max-width: 35rem;
   text-align: center;
   background-color: rgba(240, 248, 255, 0.7);
-  padding: 1rem;
+  padding: 1rem 2rem;
   border-radius: 10px;
   margin-bottom: 2rem;
 }

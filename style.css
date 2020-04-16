@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 * {
   box-sizing: border-box;
@@ -8,18 +8,20 @@ html {
   position: relative;
   margin: 0;
 }
+
 body {
-  /* background: rgba(82, 82, 82, 0.2); */
-  background-image: url(img/alex-iby-city-street.jpg);
-  background-size: 100%;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.6);
+  background-image: url("https://res.cloudinary.com/ts-i/image/upload/c_scale,w_720/v1587036308/startng%20files/alex-iby-city-street_ee8nex.jpg");
+  background-size: contain;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-repeat: round;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Lato', sans-serif;
-  color: rgba(0, 0, 0, 0.842)
+  font-family: "Lato", sans-serif;
+  color: rgba(0, 0, 0, 0.842);
 }
 
 header {
@@ -27,6 +29,19 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 3rem 0 1rem;
+  color: rgb(211, 211, 211);
+}
+
+header h1,
+header p {
+  text-shadow: -0.5px -0.5px rgb(0, 0, 0, 0.842);
+}
+
+header img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
 }
 
 header h1 {
@@ -39,7 +54,7 @@ header h1 {
   align-items: center;
   justify-content: center;
   width: 80%;
-  max-width: 40rem;
+  max-width: 35rem;
   text-align: center;
   background-color: rgba(240, 248, 255, 0.7);
   padding: 1rem;
@@ -59,14 +74,15 @@ form input {
   margin-bottom: 20px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: inherit;
   padding: 5px;
   border-style: 2px solid #000;
   border-radius: 7px;
   box-shadow: none;
   outline: none;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .container form label {
@@ -77,7 +93,7 @@ form input, form textarea {
   width: inherit;
 }
 
-.container  form > button {
+.container form > button {
   margin: 2em 0;
   width: 10rem;
   border-radius: 5px;

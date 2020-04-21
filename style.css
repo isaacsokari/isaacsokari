@@ -56,11 +56,15 @@ header h1 {
   justify-content: center;
   width: 80%;
   max-width: 35rem;
-  text-align: center;
+  text-align: left;
   background-color: rgba(255, 255, 255, 0.493);
   padding: 1rem 2rem;
   border-radius: 10px;
   /* margin-bottom: 2rem; */
+}
+
+p, li {
+  width: 100%;
 }
 
 form {
